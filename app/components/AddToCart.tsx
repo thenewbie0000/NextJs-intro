@@ -1,13 +1,15 @@
-'use client';
-import React from 'react'
+"use client";
+import React from "react";
 
 const AddToCart = () => {
   return (
     <div>
-      <button onClick={()=> console.log("Clikced")}>Click! </button>
-      
+      <button className="btn btn-active btn-primary" >Add to Cart!</button>
     </div>
-  )
+  );
 }
 
-export default AddToCart
+
+;
+
+export default AddToCart;
